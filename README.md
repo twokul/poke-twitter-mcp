@@ -2,7 +2,7 @@
 
 A minimal [FastMCP](https://github.com/jlowin/fastmcp) server template for Render deployment with streamable HTTP transport.
 
-[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/InteractionCo/mcp-server-template)
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/twokul/poke-twitter-mcp)
 
 ## Local Development
 
@@ -31,9 +31,11 @@ Open http://localhost:3000 and connect to `http://localhost:8000/mcp` using "Str
 ## Deployment
 
 ### Option 1: One-Click Deploy
+
 Click the "Deploy to Render" button above.
 
 ### Option 2: Manual Deployment
+
 1. Fork this repository
 2. Connect your GitHub account to Render
 3. Create a new Web Service on Render
@@ -48,7 +50,6 @@ You can connect your MCP server to Poke at (poke.com/settings/connections)[poke.
 To test the connection explitly, ask poke somethink like `Tell the subagent to use the "{connection name}" integration's "{tool name}" tool`.
 If you run into persistent issues of poke not calling the right MCP (e.g. after you've renamed the connection) you may send `clearhistory` to poke to delete all message history and start fresh.
 We're working hard on improving the integration use of Poke :)
-
 
 ## Customization
 
